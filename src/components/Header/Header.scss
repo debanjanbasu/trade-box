@@ -1,0 +1,11 @@
+@import "../../sass-partials/common";
+header {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, auto);
+    &:before {
+        content: "";
+    }
+    > a {
+        padding: $gutter-unit;
+    }
+}
